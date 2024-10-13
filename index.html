@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Calçados</title>
+    <link rel="stylesheet" href="cssBootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- inicio do menu -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Loja</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim do menu -->
+
+    <header class="container mt-5">
+        <h1 class="text-center">Loja de Calçados</h1>
+     </header>
+     <main class="container mt-5">
+        <section>
+            <h2 class="text-center">Tênis em Destaque</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- card do tenis da adidas -->
+                    <div class="card">
+                        <img src="img/adidas.png" class="card-img-top" alt="Imagem de Tênis Adidas">
+                        <div class="card-body">
+                          <h3 class="card-title">Tênis Adidas Response Runner</h3>
+                          <h4 class="card-text">R$ 237,49 no Pix</h4>
+                          <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- card do tênis da nike -->
+                    <div class="card">
+                        <img src="img/nike.jpg" class="card-img-top" alt="Imagem de Tênis Nike">
+                        <div class="card-body">
+                          <h3 class="card-title">Tênis Nike Air Max Excee</h3>
+                          <h4 class="card-text">R$ 799,99 no Pix</h4>
+                          <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                     <!-- card do tênis da oakley -->
+                    <div class="card">
+                        <img src="img/oakley.jpg" class="card-img-top" alt="Imagem de Tênis Oakley">
+                        <div class="card-body">
+                          <h3 class="card-title">Tênis Oakley Stratus</h3>
+                          <h4 class="card-text">R$ 649,99 no Pix</h4>
+                          <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-center mt-5">Contato</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Endereço de Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Nós nunca compartilharemos seu email com mais ninguém.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Aceitar os termos</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+     </main>
+     <footer class="container-fluid mt-5 mb-3">
+        <p>&copy; 2024 - Leonardo Teixeira da Silva</p>
+     </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
