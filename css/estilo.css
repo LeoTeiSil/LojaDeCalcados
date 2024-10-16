@@ -2,9 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url(../img/fundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     flex: 1;
+}
+
+nav {
+    background-color:  rgb(88, 88, 90);
 }
 footer {
     background-color: #f8f9fa;
